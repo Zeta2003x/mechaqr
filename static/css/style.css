@@ -1,0 +1,94 @@
+.restaurante-container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    background: linear-gradient(to top, #ce958d, #ab837d);
+}
+
+.restaurante {
+    height: 100%;
+    width:80vw;
+}
+
+#restaurante-info {
+    background: linear-gradient(to bottom, #ce958d, #ab837d);
+    padding-bottom: 10vh;
+}
+
+.restaurante-container-img {
+    padding-top: 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.restaurante-img {
+    max-width:100%;
+    height:auto;
+    border-radius: 8px;
+}
+
+.restaurante-info-titulo {
+    margin: 0 auto;
+    margin-top: 10vh;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 4vw;
+    font-weight: bold;
+    color: #dbd1cf;
+}
+
+.barra-separadora {
+    background: linear-gradient(to right, #ce958d, #dbd1cf, #ce958d);
+    margin: 0 auto;
+    margin-top: 1vh;
+    height: 0.5vh;
+    width: 80%;
+}
+
+.restaurante-info {
+    width: 80%;
+    display: flex;
+    margin: 3vh auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#mail-web {
+    flex-direction: column;
+}
+
+#mail-web > div {
+    flex-direction: column;
+    margin: 2vh 0;
+}
+
+.restaurante-info-h {
+    color: #dbd1cf;
+    padding: 1vh 1vh;
+    box-sizing: border-box;
+    width:100%;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3vw;
+    text-transform: uppercase;
+}
+
+#pag-web {
+    text-decoration: none;
+}
+
+#pag-web:hover, #pag-web:visited{
+    color: #dbd1cf;
+    text-decoration:none;
+}
+
+.icono {
+    background: inherit;
+}
+
+.icono > img {
+    width: 10vw;
+    height: 10vh;
+    object-fit: scale-down;
+}

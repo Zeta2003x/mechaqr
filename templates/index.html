@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Matias Grin">
+    <title>Casa Lucca</title>
+    <link rel = "icon" href ="{{ url_for('static', filename= 'images/logo.png') }}" 
+        type = "image/x-icon">
+    <link rel="stylesheet" href="{{ url_for('static', filename= 'css/style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,500;1,300&family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="restaurante-container">
+        <div class="restaurante">
+            <div class="restaurante-container-img">
+                <img class="restaurante-img" src="https://uqrmecdn.s3.us-east-2.amazonaws.com/u/231969/3cc92e652d8e63dc0960203f5ea9b478985f073b.jpeg" alt="Casa Lucca">
+            </div>
+        </div>
+    </div>
+    <div id="restaurante-info" class="restaurante-container">
+        <div class="restaurante">
+            <div class="restaurante-info-titulo">CONTACTO</div>
+            <div class="barra-separadora"></div>
+            <div id="mail-web" class="restaurante-info">
+                <div class="restaurante-info-h">reservas@casalucca.com.ar</div>
+                <div class="restaurante-info-h"><a id="pag-web" href="https://casalucca.com.ar/" target="_blank" rel="noopener noreferrer">casalucca.com.ar</a></div>
+            </div>
+            <div class="restaurante-info">
+                <div class="restaurante-info-h">Teléfono<br>45048283</div>
+                <div class="restaurante-info-h">Wifi<br>39093909</div>
+            </div>
+            <div class="restaurante-info">
+                <a class="restaurante-info-h icono" href="https://www.instagram.com/casa.lucca/" target="_blank" rel="noopener noreferrer"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/768px-Instagram_logo_2016.svg.png" alt="Instagram"></a>
+                <a class="restaurante-info-h icono" href="https://api.whatsapp.com/send?phone=541140708300" target="_blank" rel="noopener noreferrer"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/WhatsApp_logo-color-vertical.svg/2048px-WhatsApp_logo-color-vertical.svg.png" alt="WhatsApp"></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
